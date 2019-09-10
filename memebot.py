@@ -23,7 +23,7 @@ def run():
             else:
                 hook.send(url)
                 append_pickle(url, 'old_urls.pkl')
-            sleep(600)
+                sleep(600)
 
 
 if __name__ == '__main__':
