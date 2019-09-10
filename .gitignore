@@ -1,0 +1,5 @@
+.idea
+venv
+*.pkl
+api.py
+__pycache__
