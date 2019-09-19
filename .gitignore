@@ -4,3 +4,4 @@ venv
 api.py
 __pycache__
 nohup.out
+devconfig.py
