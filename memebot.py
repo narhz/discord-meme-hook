@@ -3,14 +3,14 @@ from dhooks import Webhook
 import os
 from time import sleep
 
-from api import WEBHOOK
+from config import HOOK
 
 from pickles import write_pickle, load_pickle, append_pickle
 from reddit import Redditbot
 
 
 def run():
-    hook = Webhook(WEBHOOK)
+    hook = Webhook(HOOK)
 
     if not os.path.exists('old_urls.pkl'):
         write_pickle([], 'old_urls.pkl')

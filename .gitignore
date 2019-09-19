@@ -3,3 +3,4 @@ venv
 *.pkl
 api.py
 __pycache__
+nohup.out
